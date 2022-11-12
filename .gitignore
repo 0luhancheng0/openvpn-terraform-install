@@ -29,7 +29,7 @@ override.tf.json
 # example: *tfplan*
 
 # Ignore settings
-settings/*
+# settings/*
 
 # Ignore generated config
 generated/*
