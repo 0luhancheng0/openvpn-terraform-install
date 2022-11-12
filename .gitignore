@@ -2,6 +2,7 @@
 **/.terraform/*
 
 # .tfstate files
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
 
@@ -29,7 +30,7 @@ override.tf.json
 # example: *tfplan*
 
 # Ignore settings
-# settings/*
+settings/openvpn*
 
 # Ignore generated config
 generated/*
